@@ -1,0 +1,19 @@
+.card {
+  border-radius: 25px;
+}
+
+h2{
+  font-weight: bold;
+  display: inline-block;
+}
+
+hr {
+  background: #C0C0C0;
+}
+
+.img-btn{
+  text-transform: capitalize;
+}
+
+
+

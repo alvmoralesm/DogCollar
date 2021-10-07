@@ -15,6 +15,7 @@ import { RouterModule } from '@angular/router';
 import { MascotaAgregarComponent } from 'src/pages/mascotaAgregar/mascotaAgregar.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { MascotaComponent } from 'src/pages/mascota/mascota.component';
+import { MascotaMapaComponent } from 'src/pages/mascotaMapa/mascotaMapa.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { MascotaComponent } from 'src/pages/mascota/mascota.component';
     MainComponent,
     MascotaAgregarComponent,
     MascotaComponent,
+    MascotaMapaComponent,
     RegisterComponent],
   entryComponents: [],
   imports: [

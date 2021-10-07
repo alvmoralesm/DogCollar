@@ -11,7 +11,7 @@ export class UserService {
                 nombre: 'prueba1',
                 apellido: 'apellido prueba 1',
                 contrasena: '1234',
-                fechaNacimiento: new Date(),
+                rcontrasena: '1234',
                 email: 'prueba1@prueba1.cl'
             },
             {
@@ -19,7 +19,7 @@ export class UserService {
                 nombre: 'prueba2',
                 apellido: 'apellido prueba2',
                 contrasena: '1234',
-                fechaNacimiento: new Date(),
+                rcontrasena: '1234',
                 email: 'prueba2@prueba2.cl'
             },
             {
@@ -27,7 +27,7 @@ export class UserService {
                 nombre: 'prueba3',
                 apellido: 'apellido prueba3',
                 contrasena: '1234',
-                fechaNacimiento: new Date(),
+                rcontrasena: '1234',
                 email: 'prueba3@prueba3.cl'
             },
         ]

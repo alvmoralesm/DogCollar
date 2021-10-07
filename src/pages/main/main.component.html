@@ -2,12 +2,7 @@
     <ion-toolbar color="menu-color">
         <ion-grid>
             <ion-row class="ion-align-items-center">
-                <ion-col size="10">
-                    <ion-title class="ion-text-center">
-                        Bienvenido {{ nombre }}
-                    </ion-title>
-                </ion-col>
-                <ion-col size="2">
+                <ion-col size="2" offset="10">
                     <ion-button color="danger" expand="block" href="">
                         <ion-icon name="exit-outline"></ion-icon>
                     </ion-button>
@@ -20,8 +15,8 @@
     <ion-grid class="completo">
         <ion-row class="ion-align-items-center">
             <ion-col size="10" offset="1">
-                <ion-button color="success" expand="block" size="large" href="agregar_mascota">
-                    Agregar mascota
+                <ion-button class="img-btn" color="success" expand="block" size="large" href="agregar_mascota">
+                    Agregar mascota &nbsp;<ion-icon name="paw-outline"></ion-icon>
                 </ion-button>
             </ion-col>
         </ion-row>
@@ -31,7 +26,7 @@
                 <h2>Seleccionar mascota</h2>
             </ion-col>
         </ion-row>
-        <ion-card>
+        <ion-card href="principal">
             <ion-row class="ion-align-items-center">
                 <ion-col size="4">
                     <img src="../../assets/Petizo.webp" alt="" width="auto">
@@ -51,7 +46,7 @@
                 </ion-col>
             </ion-row>
         </ion-card>
-        <ion-card>
+        <ion-card href="mascota">
             <ion-row class="ion-align-items-center">
                 <ion-col size="4">
                     <img src="../../assets/Tobito.PNG" alt="" width="auto">
@@ -71,7 +66,7 @@
                 </ion-col>
             </ion-row>
         </ion-card>
-        <ion-card>
+        <ion-card href="principal">
             <ion-row class="ion-align-items-center">
                 <ion-col size="4">
                     <img src="../../assets/Miguelo.jpg" alt="" width="auto">

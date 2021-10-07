@@ -4,6 +4,7 @@ import { LoginComponent } from 'src/pages/login/login.component';
 import { MainComponent } from 'src/pages/main/main.component';
 import { MascotaComponent } from 'src/pages/mascota/mascota.component';
 import { MascotaAgregarComponent } from 'src/pages/mascotaAgregar/mascotaAgregar.component';
+import { MascotaMapaComponent } from 'src/pages/mascotaMapa/mascotaMapa.component';
 import { RegisterComponent } from 'src/pages/register/register.component';
 
 const routes: Routes = [
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'mascota',
     component: MascotaComponent
+  },
+  {
+    path: 'mascota_mapa',
+    component: MascotaMapaComponent
   }
 ];
 @NgModule({

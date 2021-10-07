@@ -10,7 +10,7 @@ export class RegisterComponent {
     public usuario: IUser = {
         apellido: '',
         contrasena: '',
-        fechaNacimiento: new Date(),
+        rcontrasena: '',
         nombre: '',
         email: ''
     }

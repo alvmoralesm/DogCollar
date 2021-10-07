@@ -4,5 +4,5 @@ export interface IUser {
     apellido: string;
     email: string;
     contrasena: string;
-    fechaNacimiento: Date;
+    rcontrasena: string;
 }
