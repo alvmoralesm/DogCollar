@@ -1,0 +1,77 @@
+<ion-content color="bg-color" [fullscreen]="true">
+    <ion-grid class="completa">
+        <ion-row class="ion-align-items-center">
+            <ion-col size="10" offset="1">
+                <ion-card class="header-card">
+                    <ion-grid>
+                        <ion-row>
+                            <ion-col size="9">
+                                <ion-card-title class="ion-text-center">
+                                    <h1 class="card-header">Dog Collar</h1>
+                                </ion-card-title>
+                            </ion-col>
+                            <ion-col size="3">
+                                <img src="../../assets/dog-collar-logo.svg" alt="" width="100">
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row class="ion-align-items-center">
+            <ion-col>
+                <ion-card class="card">
+                    <ion-card-content>
+                        <ion-grid>
+                            <ion-row>
+                                <ion-col>
+                                    <ion-item>
+                                        <ion-label position="floating">Correo electrónico</ion-label>
+                                        <ion-input type="email" [(ngModel)]="usuario"></ion-input>
+                                    </ion-item>
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>
+                                    <ion-item>
+                                        <ion-label position="floating">Contraseña</ion-label>
+                                        <ion-input type="password" [(ngModel)]="contrasena"></ion-input>
+                                    </ion-item>
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col size="10" offset="1" class="ion-text-center">
+                                    <ion-router-link color="bg-color" href="#">
+                                        ¿Olvidaste tu contraseña?
+                                    </ion-router-link>
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>
+                                    <!-- <ion-button expand="block" (click)="iniciarSesion()" color="primary" href="menu">
+                                        Iniciar sesión</ion-button> -->
+                                    <ion-button expand="block" href="principal">Iniciar sesión</ion-button>
+                                </ion-col>
+                            </ion-row>
+                            <hr>
+                            <ion-row class="tcta">
+                                <ion-col size="10" offset="1" class="ion-text-center">
+                                    <h2>¿Aún no tienes cuenta?</h2>
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>
+                                    <ion-router-link href="registro">
+                                        <ion-button expand="block" color="success">
+                                            Registrarse</ion-button>
+                                    </ion-router-link>
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+    </ion-grid>
+</ion-content>

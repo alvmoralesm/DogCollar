@@ -1,0 +1,24 @@
+.completa {
+    height: 100%;
+}
+
+.card-header{
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+
+.header-card {
+    border: 1px solid #A3B4A2;
+    border-radius: 10px;
+    background-color:#187795;
+}
+
+.card {
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #A3B4A2;
+}

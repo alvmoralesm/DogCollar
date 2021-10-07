@@ -1,0 +1,20 @@
+.completo {
+    height: 100%;
+}
+
+.ion-button{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.btn {
+    background-color: #187795;
+}
+
+hr {
+    background: #C0C0C0;
+}
+
+h2{
+    font-weight: 700;
+}
