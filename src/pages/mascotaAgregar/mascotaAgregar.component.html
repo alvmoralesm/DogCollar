@@ -1,0 +1,118 @@
+<ion-header>
+  <ion-toolbar color="menu-color">
+    <ion-grid>
+      <ion-row class="ion-align-items-center">
+        <ion-col size="10">
+          <ion-title class="ion-text-center">
+            Bienvenido {{ nombre }}
+          </ion-title>
+        </ion-col>
+        <ion-col size="2">
+          <ion-button color="danger" expand="block" href="">
+            <ion-icon name="exit-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+<ion-content color="bg-color">
+  <ion-grid class="completa">
+    <ion-row class="ion-align-items-center">
+      <ion-col>
+        <ion-card class="card">
+          <ion-card-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <ion-item>
+                    <ion-label position="floating">
+                      Nombre
+                    </ion-label>
+                    <ion-input type="text"></ion-input>
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-list>
+
+                    <ion-item>
+                      <ion-label>Raza</ion-label>
+                      <ion-select value="mestizo" okText="Seleccionar" cancelText="Cancelar">
+                        <ion-select-option value="mestizo">Mestizo</ion-select-option>
+                        <ion-select-option value="labrador">Labrador retriever</ion-select-option>
+                        <ion-select-option value="corgi">Corgi</ion-select-option>
+                        <ion-select-option value="yorkshire">Yorkshire</ion-select-option>
+                        <ion-select-option value="paleman">Pastor alemán</ion-select-option>
+                      </ion-select>
+                    </ion-item>
+
+                  </ion-list>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-item>
+                    <ion-label position="floating">
+                      Edad
+                    </ion-label>
+                    <ion-input type="number"></ion-input>
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-item>
+                    <ion-label position="floating">
+                      Comentario
+                    </ion-label>
+                    <ion-input type="text"></ion-input>
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size="12" offset="0.8">
+                  <p>Opcional</p>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <ion-item>
+                    <ion-label>
+                      Imágen
+                    </ion-label>
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size="8">
+                  <ion-button class="img-btn" expand="block" color="light">
+                    Seleccionar imágen
+                  </ion-button>
+                </ion-col>
+                <ion-col size="4">
+                  No file chosen
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size="9">
+                  <ion-button expand="block" color="success">
+                    Agregar mascota
+                  </ion-button>
+                </ion-col>
+                <ion-col size="3">
+                  <ion-button color="danger" expand="block" href="principal">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

@@ -13,19 +13,24 @@ import { FormsModule } from '@angular/forms';
 import { UserService } from 'src/services/users/User.service';
 import { RouterModule } from '@angular/router';
 import { MascotaAgregarComponent } from 'src/pages/mascotaAgregar/mascotaAgregar.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { MascotaComponent } from 'src/pages/mascota/mascota.component';
+
 
 @NgModule({
   declarations: [AppComponent,
     LoginComponent,
     MainComponent,
     MascotaAgregarComponent,
+    MascotaComponent,
     RegisterComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    LazyLoadImageModule
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
